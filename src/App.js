@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Route path="/EzyMeeting" exact component={Welcome} />
+        <Route path="/" exact component={Welcome} />
         <Route path="/mycalendar/:name" exact component={CalendarAdmin} />
         <Route path="/client/:name" exact component={CalendarClient} />
       </Router>
